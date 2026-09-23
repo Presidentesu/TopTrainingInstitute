@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - cd /home/toptrain/repositories/TopTrainingInstitute && npm install --include=dev --no-audit
-    - cd /home/toptrain/repositories/TopTrainingInstitute && export NODE_OPTIONS="--max-old-space-size=2048" && npm run build
+    - cd /home/toptrain/repositories/TopTrainingInstitute && export NODE_OPTIONS="--max-old-space-size=1536" && npm run build
     - mkdir -p /home/toptrain/repositories/TopTrainingInstitute/tmp
     - touch /home/toptrain/repositories/TopTrainingInstitute/tmp/restart.txt
