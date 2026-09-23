@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - cd /home/toptrain/repositories/TopTrainingInstitute && npm ci
+    - cd /home/toptrain/repositories/TopTrainingInstitute && npm run build
+    - mkdir -p /home/toptrain/repositories/TopTrainingInstitute/tmp
+    - touch /home/toptrain/repositories/TopTrainingInstitute/tmp/restart.txt
