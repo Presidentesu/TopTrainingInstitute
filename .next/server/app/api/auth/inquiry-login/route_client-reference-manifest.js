@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/auth/inquiry-login/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"D:\\projects\\TopTrainingInstitute\\src\\app\\api\\auth\\inquiry-login\\route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}};
